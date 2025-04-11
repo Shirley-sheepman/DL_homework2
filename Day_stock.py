@@ -32,7 +32,7 @@ class Day_StockData:
             "secid": "1.000001",  # 上证指数代码
             "fields1": "f1,f2,f3,f4,f5,f6",
             "fields2": "f51,f52,f53,f54,f55,f56,f57",  # 日期-开盘-收盘-最高-最低-成交量-成交额
-            "klt": "1",   # 日线
+            "klt": "101",   # 日线
             "fqt": "0",   # 不复权
             "beg": date_dt.strftime("%Y%m%d"),
             "end": date_dt.strftime("%Y%m%d")
@@ -81,7 +81,7 @@ class Day_StockData:
             "secid": secid,
             "fields1": "f1,f2,f3,f4,f5,f6",
             "fields2": "f51,f52,f53,f54,f55,f56,f57",
-            "klt": "1",
+            "klt": "101",
             "fqt": "0",
             "beg": date_dt.strftime("%Y%m%d"),
             "end": date_dt.strftime("%Y%m%d")
@@ -121,7 +121,7 @@ class Day_StockData:
         "secid": "100.DJIA",
         "fields1": "f1,f2,f3,f4,f5,f6",
         "fields2": "f51,f52,f53,f54,f55,f56,f57",  # 字段顺序：日期,开盘,收盘,最高,最低,成交量,成交额
-        "klt": "1",
+        "klt": "101",
         "fqt": "0",
         "beg": date_dt.strftime("%Y%m%d"),
         "end": date_dt.strftime("%Y%m%d")
